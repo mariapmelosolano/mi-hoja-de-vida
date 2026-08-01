@@ -1,0 +1,116 @@
+
+:root {
+    --bg-primary: #0f172a;
+    --bg-card: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-hover: #0284c7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--bg-card);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.resumen {
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+    color: var(--text-main);
+}
+
+.contacto-links a {
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    margin: 0 0.3rem;
+    transition: all 0.3s ease;
+}
+
+.contacto-links a:hover {
+    background-color: var(--accent);
+    color: var(--bg-primary);
+}
+
+.seccion {
+    margin-top: 2.5rem;
+}
+
+.seccion h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+    border-bottom: 2px solid var(--bg-card);
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
+
+.habilidades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.tag {
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.card {
+    background-color: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.fecha {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+}

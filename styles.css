@@ -114,3 +114,33 @@ body {
     color: var(--accent);
     margin-bottom: 0.8rem;
 }
+
+/* Botón de cambio de tema */
+.btn-theme {
+    background-color: var(--accent);
+    color: var(--bg-primary);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.btn-theme:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el Tema Claro */
+body.light-theme {
+    --bg-primary: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --accent: #0284c7;
+}
+
+body.light-theme .card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
